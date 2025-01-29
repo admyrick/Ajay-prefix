@@ -16,7 +16,7 @@ jobs:
       
       - name: Sync Fork
         run: |
-          git remote add upstream https://github.com/ORIGINAL-OWNER/REPOSITORY-NAME.git
+          git remote add upstream https://github.com/ajay9634/Ajay-prefix.git
           git fetch upstream
           git checkout main
           git merge upstream/main
